@@ -1,0 +1,194 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.main-nav {
+    background: #2c3e50;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 1.5rem;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #3498db;
+}
+
+.section {
+    padding: 6rem 2rem 2rem;
+    min-height: 100vh;
+}
+
+.content-box {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+/* Стили для секции "О проекте" */
+.project-description {
+  margin-bottom: 2.5rem;
+  line-height: 1.7;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.custom-table th, 
+.custom-table td {
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+.custom-table th {
+  background-color: #2c3e50;
+  color: white;
+  font-weight: 500;
+}
+
+.custom-table tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+/* Стили для изображения */
+.gantt-image {
+    margin: 2rem 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.gantt-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-caption {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+    margin-top: 0.5rem;
+}
+/* Стили для секции участников */
+.team-lead {
+    margin-bottom: 3rem;
+}
+
+.module-group {
+    margin: 2.5rem 0;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.members-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.2rem;
+    margin-top: 1rem;
+}
+
+.member-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    position: relative;
+}
+
+.member-badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #3498db;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.lead-card {
+    background: #2c3e50;
+    color: white;
+    border-left: 4px solid #3498db;
+}
+
+.case-card {
+    background: #f1c40f10;
+    border-left: 4px solid #f1c40f;
+}
+/* Стили журнала */
+.journal-post {
+    margin-bottom: 2.5rem;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.post-date {
+    color: #3498db;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.post-content ul {
+    margin-left: 1.5rem;
+    line-height: 1.7;
+}
+.resources-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.resources-list li {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 6px;
+}
+
+.resources-list a {
+  color: #2c3e50;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.resources-list a:hover {
+  color: #3498db;
+}
+/* Стили отчёта */
+.meta {
+  color: #666;
+  margin-bottom: 1.5rem;
+  font-size: 0.95em;
+}
+
+.report-content {
+  line-height: 1.7;
+}
+
+.ul {
+  margin-left: 1.8rem;
+}
